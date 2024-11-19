@@ -10,12 +10,11 @@ a {
   
   /* header */
   
-  .header {
-    position: fixed;
+  header {
     width: 100%;
   }
   
-  .header ul {
+  header ul {
     /* Aansluiting bij alle randen */
     margin: 0;
     /* Geen extra ruimte rondom de tekst */
@@ -26,7 +25,7 @@ a {
     overflow: hidden;
   }
   
-  .header li a {
+  header li a {
     display: block;
     /* afstand van hoeken */
     padding: 20px 20px;
@@ -34,7 +33,7 @@ a {
     text-decoration: none;
   }
   
-  .header .logo {
+  header .logo {
     display: block;
     float: left;
     font-size: 2em;
@@ -44,7 +43,7 @@ a {
   
   /* menu */
   
-  .header .menu {
+  header .menu {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
@@ -52,7 +51,7 @@ a {
   
   /* menu icon */
   
-  .header .menu-icon {
+  header .menu-icon {
     /* UITZOEKEN */
     cursor: pointer;
     /* kruis lijnt rechts uit */
@@ -74,8 +73,8 @@ a {
     width: 18px;
   }
   
-  .header .menu-icon .navicon:before,
-  .header .menu-icon .navicon:after {
+  header .menu-icon .navicon:before,
+  header .menu-icon .navicon:after {
     /* Boven en onder lijn hamburger-menu kleur */
     background: #333;
     /* UITZOEKEN */
@@ -87,57 +86,57 @@ a {
     width: 100%;
   }
   
-  .header .menu-icon .navicon:before {
+  header .menu-icon .navicon:before {
     top: 5px;
   }
   
-  .header .menu-icon .navicon:after {
+  header .menu-icon .navicon:after {
     top: -5px;
   }
   
   /* menu btn */
   
-  .header .menu-btn {
+  header .menu-btn {
     display: none;
   }
   
-  .header .menu-btn:checked ~ .menu {
+  header .menu-btn:checked ~ .menu {
     /* hoogte zichtbaaruitklap menu */
     max-height: 400px;
   }
   
-  .header .menu-btn:checked ~ .menu-icon .navicon {
+  header .menu-btn:checked ~ .menu-icon .navicon {
     background: transparent;
   }
   
-  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+  header .menu-btn:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg);
   }
   
-  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+  header .menu-btn:checked ~ .menu-icon .navicon:after {
     transform: rotate(45deg);
   }
   
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
   }
   
   /* 48em = 768px */
   
   @media (min-width: 860px) {
-    .header li {
+    header li {
       float: left;
     }
-    .header li a {
+    header li a {
       padding: 20px 30px;
     }
-    .header .menu {
+    header .menu {
       clear: none;
       float: right;
       max-height: none;
     }
-    .header .menu-icon {
+    header .menu-icon {
       display: none;
     }
   }

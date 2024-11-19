@@ -1,0 +1,26 @@
+/* HEADER */
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+header{
+    background-color: pink;
+}
+
+main{
+    background-color: aqua;
+}
+
+footer{
+    background-color: antiquewhite;
+}
+
+/* .bg-image{
+    width: 100%;
+    margin-top: -5rem;
+    opacity: 50%;
+} */
