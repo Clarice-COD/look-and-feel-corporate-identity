@@ -24,12 +24,19 @@ footer{
 .bg-image{
     height: 100%;
     margin-top: -5rem;
-    opacity: 50%;
+    /* opacity: 50%; */
 }
 
 /* MAIN */
 
 h1{
-    margin-left:3rem;
+    margin-left:2rem;
     margin-top: 3rem;
+}
+
+p{
+    margin-left:2rem;
+    margin-top: 2rem;
+    max-width: 16rem;
+    line-height: 1.4;
 }
