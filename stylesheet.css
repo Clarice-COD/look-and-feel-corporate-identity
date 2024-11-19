@@ -9,6 +9,8 @@ body{
 
 header{
     background-color: pink;
+    height: 26rem;
+    margin: 0;
 }
 
 main{
@@ -19,8 +21,15 @@ footer{
     background-color: antiquewhite;
 }
 
-/* .bg-image{
-    width: 100%;
+.bg-image{
+    height: 100%;
     margin-top: -5rem;
     opacity: 50%;
-} */
+}
+
+/* MAIN */
+
+h1{
+    margin-left:3rem;
+    margin-top: 3rem;
+}
