@@ -106,7 +106,8 @@ body {
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 240px;
+    /* hoogte zichtbaaruitklap menu */
+    max-height: 400px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -128,7 +129,7 @@ body {
   
   /* 48em = 768px */
   
-  @media (min-width: 48em) {
+  @media (min-width: 860px) {
     .header li {
       float: left;
     }
@@ -144,11 +145,6 @@ body {
       display: none;
     }
   }
-  
-
-.MenuIcon{
-    width: 2rem;
-}
 
 .logo{
     width: 4rem;
