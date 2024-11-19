@@ -1,41 +1,41 @@
+
+/* Bewerken naar eigen body */
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;
     background-color: #f4f4f4;
   }
+
   
   a {
-    color: #000;
+    /* kleur toevoegen */
   }
+  
   
   /* header */
   
   .header {
-    background-color: #fff;
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
-    z-index: 3;
   }
   
   .header ul {
+    /* Aansluiting bij alle randen */
     margin: 0;
+    /* Geen extra ruimte rondom de tekst */
     padding: 0;
+    /* Bolletjes naast de tekst niet zichtbaar */
     list-style: none;
+    /* UITZOEKEN */
     overflow: hidden;
-    background-color: #fff;
   }
   
   .header li a {
     display: block;
+    /* afstand van hoeken */
     padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
+    /* Haalt de lijn onder tekst weg */
     text-decoration: none;
-  }
-  
-  .header li a:hover,
-  .header .menu-btn:hover {
-    background-color: #f4f4f4;
   }
   
   .header .logo {
@@ -57,26 +57,32 @@ body {
   /* menu icon */
   
   .header .menu-icon {
+    /* UITZOEKEN */
     cursor: pointer;
-    display: inline-block;
+    /* kruis lijnt rechts uit */
     float: right;
+    /* Afstand randen */
     padding: 28px 20px;
-    position: relative;
-    user-select: none;
   }
   
   .header .menu-icon .navicon {
+    /* Middelste hamburger-menu lijn zichtbaar */
     background: #333;
     display: block;
+    /* Dikte lijnen hamburger-menu */
     height: 2px;
     position: relative;
+    /* Mooier verloop inlading */
     transition: background .2s ease-out;
+    /* Breedte icoon hambuer-menu & kruis */
     width: 18px;
   }
   
   .header .menu-icon .navicon:before,
   .header .menu-icon .navicon:after {
+    /* Boven en onder lijn hamburger-menu kleur */
     background: #333;
+    /* UITZOEKEN */
     content: '';
     display: block;
     height: 100%;
