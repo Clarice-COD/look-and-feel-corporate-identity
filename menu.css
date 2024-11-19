@@ -1,15 +1,11 @@
-
-/* Bewerken naar eigen body */
-body {
-    margin: 0;
-    font-family: Helvetica, sans-serif;
-    background-color: #f4f4f4;
-  }
-
-  
-  a {
+a {
     /* kleur toevoegen */
   }
+
+  .logo{
+    width: 4rem;
+    background-color: blueviolet;
+}
   
   
   /* header */
@@ -145,7 +141,3 @@ body {
       display: none;
     }
   }
-
-.logo{
-    width: 4rem;
-}
