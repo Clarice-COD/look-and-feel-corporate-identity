@@ -1,55 +1,54 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="menu.css">
-    <title>Look and Feel - Bieb in Bloei - Agenda</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>test responsive menu</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <a href="#"><img class="logo" src="assets/Logo.svg" alt=""></a>
-        <button class="BG-MenuButton" area-hidden="true"><img class="MenuIcon" src="assets/menu-bar.png" alt="open menu"></button>
-            <ul>
-                <li>
-                    <a href="#">Stekjes</a>
-                </li>
-                <li>
-                    <a href="#">Zaden</a>
-                </li>
-                <li>
-                    <a href="#">Geveltuin</a>
-                </li>
-                <li>
-                    <a href="#">Groene Bieb</a>
-                </li>
-                <li>
-                    <a href="#">Agenda</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        <img src="assets/schuur.webp" alt="">
+            <nav>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="#">Stekjes</a></li>
+                    <li><a href="#">Zaden</a></li>
+                    <li><a href="#">Geveltuin</a></li>
+                    <li><a href="#">Groene Bieb</a></li>
+                    <li><a href="#">Agenda</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        <img class="bg-image" src="assets/schuur.webp" alt="">
     </header>
 
+   
+
     <main>
-        <h1>Ontdek de <br> aankomende <br> workshops</h1>
-        <p>Workshops zijn fantastische leermogelijkheden waarbij deelnemers praktische vaardigheden kunnen verwerven, nieuwe kennis kunnen opdoen en vaak ook nieuwe mensen kunnen ontmoeten.</p>
+        <!-- bewerk de article inplaats van individueel met margin -->
+        <article>
+            <h1>Ontdek de <br> aankomende <br> workshops</h1>
+            <p>Workshops zijn fantastische leermogelijkheden waarbij deelnemers praktische vaardigheden kunnen verwerven,
+            nieuwe kennis kunnen opdoen en vaak ook nieuwe mensen kunnen ontmoeten.</p>
+        </article>
 
         <article>
             <h2>Stekjes maken</h2>
-            <p>OBA Linnaeusstraat
-                €10,-
+            <p>OBA Linnaeusstraat <br>
+                €10,- <br>
                 03/19/2023</p>
                 <button>Lees meer</button>
-                <img src="assets/fiets met plant.webp" alt="">
+                <!-- <img class="bg-article" src="assets/fiets met plant.webp" alt=""> -->
         </article>
+
     </main>
 
     <footer></footer>
-    
 </body>
+
 </html>
