@@ -6,6 +6,20 @@ a {
     width: 4rem;
     background-color: blueviolet;
 }
+
+.bg-image{
+  /* width: 100%;
+  height:100%; */
+  object-fit: cover;
+}
+
+.logo{
+  z-index: 1;
+}
+
+nav{
+  z-index: 1;
+}
   
   
   /* header */

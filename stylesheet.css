@@ -40,3 +40,18 @@ p{
     max-width: 16rem;
     line-height: 1.4;
 }
+
+/* article */
+
+article{
+    position: relative;
+    width: 15rem;
+    height: 24rem;
+    background-color: brown;
+    margin-left:2rem;
+    border-radius: 1rem;
+}
+
+.bg-image{
+    height:100%;
+}

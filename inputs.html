@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inputs.css">
+    <title>inputs</title>
+</head>
+<body>
+
+<!-- Input - radio -->
+<fieldset>
+    <legend>
+        Selecteer een zender
+    </legend>
+        <div>
+            <input type="radio" id="kwik" name="drone" value="kwik" checked />
+            <label for="kwik">Kwik</label>
+        </div>
+        <div>
+            <input type="radio" id="kwek" name="drone" value="kwek" checked />
+            <label for="kwek">Kwek</label>
+        </div>
+        <div>
+            <input type="radio" id="kwak" name="drone" value="kwak" checked />
+            <label for="kwak">Kwak</label>
+        </div>
+</fieldset>
+
+<!-- Input - range -->
+ <p>Audio settings:</p>
+    <div>
+        <input type="range" id="volume" name="volume" min="0" max="11" />
+        <label for="volume">Volume</label>
+    </div>
+    <div>
+        <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10" />
+        <label for="volume">Volume</label>
+    </div>
+
+    <!-- Input - reset -->
+     <form action="">
+        <div class="controls">
+            <label for="id">User ID</label>
+                <input type="text" id="id" name=id />
+                <input type="reset" value="Reset" />
+                <input type="submit" value="Submit" />    
+        </div>
+     </form>
+
+
+ <!-- Input - search -->
+<label for="site-search">Search the site:</label>
+    <input type="search" id="site-search" name="q">
+<button>search</button>
+
+
+    
+</body>
+</html>
