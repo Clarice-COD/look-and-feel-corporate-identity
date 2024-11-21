@@ -52,5 +52,31 @@ p{
 }
 
 .planning-gradient{
+    /* background: linear-gradient(#00000000, rgb(0, 0, 0)); */
+    display: block;
+    position: relative;
+    text-decoration: none;
+    object-fit: cover;
+    float: left;
+    right:1rem;
+    top:12rem;
+    
+    & button{
+        background:none;
+        border: none;
+        color: var(--text-off-white);
+        text-decoration: underline;
+    }
 
+    & p{
+        margin:0;
+        color: var(--text-off-white);
+    }
+
+    h2{
+        font-size: 1.4rem;
+        color: var(--text-off-white)
+    }
+    
 }
+
