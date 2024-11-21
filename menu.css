@@ -19,6 +19,8 @@ a {
 
 nav{
   z-index: 1;
+  margin-right: 1.5rem;
+  margin-top: -5rem;
 }
   
   
@@ -51,7 +53,7 @@ nav{
     display: block;
     float: left;
     font-size: 2em;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     text-decoration: none;
   }
   
@@ -71,12 +73,12 @@ nav{
     /* kruis lijnt rechts uit */
     float: right;
     /* Afstand randen */
-    padding: 28px 20px;
+    /* padding: 28px 20px; */
   }
   
   nav .menu-icon .navicon {
     /* Middelste hamburger-menu lijn zichtbaar */
-    background: #333;
+    background: var(--text-off-white);
     display: block;
     /* Dikte lijnen hamburger-menu */
     height: 2px;
@@ -90,7 +92,7 @@ nav{
   nav .menu-icon .navicon:before,
   nav .menu-icon .navicon:after {
     /* Boven en onder lijn hamburger-menu kleur */
-    background: #333;
+    background: var(--text-off-white);
     /* UITZOEKEN */
     content: '';
     display: block;

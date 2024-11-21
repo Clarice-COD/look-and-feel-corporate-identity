@@ -8,9 +8,16 @@ body{
 }
 
 header{
-    background-color: pink;
+    background-image: url(./assets/schuur.webp);
+    background-position: center;
+    background-size: cover;
+    /* background-color: pink; */
     height: 26rem;
     margin: 0;
+}
+
+.logo{
+    margin:2rem;
 }
 
 main{
@@ -19,12 +26,6 @@ main{
 
 footer{
     background-color: antiquewhite;
-}
-
-.bg-image{
-    height: 100%;
-    margin-top: -5rem;
-    /* opacity: 50%; */
 }
 
 /* MAIN */
@@ -50,8 +51,4 @@ article{
     background-color: brown;
     margin-left:2rem;
     border-radius: 1rem;
-}
-
-.bg-image{
-    height:100%;
 }
