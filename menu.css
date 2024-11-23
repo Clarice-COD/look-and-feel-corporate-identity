@@ -1,5 +1,5 @@
 a {
-    color: var(--text-off-white);
+    color: var(--primary-text-color);
   }
 
   .logo{
@@ -77,7 +77,7 @@ nav{
   
   nav .menu-icon .navicon {
     /* Middelste hamburger-menu lijn zichtbaar */
-    background: var(--text-off-white);
+    background: var(--primary-text-color);
     display: block;
     /* Dikte lijnen hamburger-menu */
     height: 2px;
@@ -91,7 +91,7 @@ nav{
   nav .menu-icon .navicon:before,
   nav .menu-icon .navicon:after {
     /* Boven en onder lijn hamburger-menu kleur */
-    background: var(--text-off-white);
+    background: var(--primary-text-color);
     /* UITZOEKEN */
     content: '';
     display: block;

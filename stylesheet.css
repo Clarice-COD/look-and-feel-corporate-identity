@@ -21,7 +21,7 @@ main{
 }
 
 footer{
-    background-color: antiquewhite;
+
 }
 
 /* MAIN */
@@ -44,7 +44,8 @@ p{
     position: relative;
     width: 15rem;
     height: 24rem;
-    background-image: url(./assets/fiets\ met\ plant.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.678)),
+    url(./assets/fiets\ met\ plant.webp);
     background-position: center;
     background-size: cover;
     margin-left:2rem;
@@ -59,24 +60,23 @@ p{
     object-fit: cover;
     float: left;
     right:1rem;
-    top:12rem;
+    top:13rem;
     
     & button{
         background:none;
         border: none;
-        color: var(--text-off-white);
+        color: var(--primary-text-color);
         text-decoration: underline;
     }
 
     & p{
         margin:0;
-        color: var(--text-off-white);
+        color: var(--primary-text-color);
     }
 
     h2{
         font-size: 1.4rem;
-        color: var(--text-off-white)
+        color: var(--primary-text-color);
     }
-    
 }
 
