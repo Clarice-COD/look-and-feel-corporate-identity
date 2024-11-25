@@ -91,3 +91,19 @@ p{
     }
 }
 
+.stekjes-product-1{
+    background-color: aqua;
+}
+
+.stekjes-product-2{
+    background-color: aqua;
+}
+
+.stekjes-producten{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
