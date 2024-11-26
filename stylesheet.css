@@ -16,6 +16,15 @@ header{
     margin: 0;
 }
 
+.header-stekjes{
+    background-image: url(./assets/STEKJES.webp);
+    background-position: center;
+    background-size: cover;
+    /* background-color: pink; */
+    height: 26rem;
+    margin: 0;
+}
+
 main{
 
 }
