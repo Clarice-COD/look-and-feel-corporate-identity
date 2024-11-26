@@ -96,11 +96,7 @@ p{
 .stekjes-product{
     background-color: var(--primary-background-color);
     border-radius: 1.5rem;
-}
-
-.stekjes-product-2{
-    background-color: var(--primary-background-color);
-
+    margin-bottom: 4rem;
 }
 
 .stekjes-producten{
