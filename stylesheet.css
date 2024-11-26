@@ -37,7 +37,7 @@ footer{
 
 h1{
     margin-left:2rem;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 p{
@@ -111,7 +111,7 @@ p{
 
 .stekjes-producten{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     grid-gap: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -167,7 +167,25 @@ font-size: 1rem;
     font-size: 1.2rem;
 }
 
+.grid-agenda{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
 
+    H1{
+        width: 26rem;
+    }
+}
+
+.harry{
+    width: 8rem;
+    position: fixed;
+    display: block;
+    right: -2rem;
+    bottom: -2.2rem;
+    transform: rotate(340deg);
+    z-index: 1;
+}
 
 /* .product-photo{
     width: 5.4rem;
