@@ -123,8 +123,10 @@ p{
 }
 
 .icon-location{
-    width: 1rem;
+    width: 0.6rem;
     color: var(--secondary-text-color);
+    display: inline-block;
+    margin-right: 0.5rem;
 }
 
 .location{
