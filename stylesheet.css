@@ -125,7 +125,7 @@ p{
     }
 
     & h3{
-        margin-top:-2rem;
+        margin-top: -9rem;
     }
 }
 
@@ -187,6 +187,16 @@ font-size: 1rem;
     z-index: 1;
 }
 
+.plants-stekjes{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 5.5rem;
+    top: -11.5rem;
+    border-radius: 0.3rem;
+    z-index: 2;
+}
+
 /* .product-photo{
     width: 5.4rem;
     position: absolute;
@@ -196,7 +206,7 @@ font-size: 1rem;
     border-radius: 0.3rem;
 } */
 
-/* .book-cover{
+.book-cover{
     position:relative;
     display:block;
-} */
+}
