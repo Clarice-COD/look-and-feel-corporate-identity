@@ -103,28 +103,21 @@ p{
 
 }
 
+.stekjes-product{
+    background-color: var(--primary-background-color);
+    border-radius: 1.5rem;
+    margin-bottom: 4rem;
+}
 
 .stekjes-producten{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    grid-gap: 3.3rem 1rem;
+    grid-gap: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 2rem;
-
-   
-}
-
-
-.stekjes-product{
-    background-color: var(--primary-background-color);
-    border-radius: 1.5rem;
-
-    display:grid;
-    grid-template-rows: 8.4rem 1fr auto auto auto;
-    justify-items: center;
 
     & p{
         margin-top: 0;
@@ -132,48 +125,8 @@ p{
     }
 
     & h3{
-        align-self: center;
-        font-size: 1.6rem;
+        margin-top: -9rem;
     }
-}
-
-.book-cover{
-    align-self:end;
-    /* background-color: #f006; */
-
-    display:grid;
-    justify-items:center;
-    align-items: center;
-}
-
-.book{
-    position: relative;
-    width: 10rem;
-    display: block;
-
-    grid-row-start: 1;
-    grid-column-start: 1;
-}
-
-.plants-stekjes{
-    position: relative;
-    display: block;
-    width: 5.5rem;
-    border-radius: 0.3rem;
-
-    grid-row-start: 1;
-    grid-column-start: 1;
-
-    translate: .96rem .99rem;
-}
-
-.description{
-    font-size: 1.2rem;
-}
-
-.location{
-    color: var(--secondary-text-color);
-    font-size: 1rem;
 }
 
 .icon-location{
@@ -181,6 +134,23 @@ p{
     color: var(--secondary-text-color);
     display: inline-block;
     margin-right: 0.5rem;
+}
+
+.location{
+color: var(--secondary-text-color);
+font-size: 1rem;
+}
+
+.book{
+    position: relative;
+    top: -3rem;
+    width: 10rem;
+    display: block;
+    margin: auto;
+}
+
+.product-photo{
+    align-items: center;
 }
 
 .stekjes-btn{
@@ -193,18 +163,9 @@ p{
     color: var(--primary-text-color);
 }
 
-
-
-
-
-
-.product-photo{
-    align-items: center;
+.description{
+    font-size: 1.2rem;
 }
-
-
-
-
 
 .grid-agenda{
     display: grid;
@@ -226,7 +187,15 @@ p{
     z-index: 1;
 }
 
-
+.plants-stekjes{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 5.5rem;
+    top: -11.5rem;
+    border-radius: 0.3rem;
+    z-index: 2;
+}
 
 /* .product-photo{
     width: 5.4rem;
@@ -237,7 +206,10 @@ p{
     border-radius: 0.3rem;
 } */
 
-
+.book-cover{
+    position:relative;
+    display:block;
+}
 
 
 /* .grid-agenda{
