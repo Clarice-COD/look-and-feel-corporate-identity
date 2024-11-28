@@ -103,6 +103,7 @@ p{
 
 }
 
+/* STEKJES GRID */
 
 .stekjes-producten{
     display: grid;
@@ -112,11 +113,8 @@ p{
     margin-right: 2rem;
     text-align: center;
     margin-top: 5rem;
-    margin-bottom: 2rem;
-
-   
+    margin-bottom: 2rem; 
 }
-
 
 .stekjes-product{
     background-color: var(--primary-background-color);
@@ -209,6 +207,65 @@ p{
     color: var(--primary-text-color);
 }
 
+
+/* AGENDA GRID */
+
+.agenda-products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.agenda-product-1{
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    border-radius: 1.5rem;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.678)),
+    url(./assets/fiets\ met\ plant.webp);
+    background-position: center;
+    background-size: cover;
+
+    & p{
+        margin-top: 0;
+        width: auto;
+        align-self: center;
+    }
+
+    & h2{
+        align-self: end;
+        font-size: 1.4rem;
+        color: var(--primary-text-color);
+    }
+}
+
+.agenda-product-details{
+    display: grid;
+    grid-template-rows: 17rem auto 4rem;
+    text-align: left;
+
+    & h2{
+
+    }
+
+    & p{
+        margin: 0;
+        max-width: 9rem;
+    }
+}
+
+
+
+
+
+li{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
 
 
 
