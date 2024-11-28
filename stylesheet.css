@@ -38,6 +38,7 @@ footer{
 h1{
     margin-left:2rem;
     margin-top: 6rem;
+    max-width: 16rem;
 }
 
 p{
@@ -213,19 +214,14 @@ p{
 .agenda-products{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    grid-gap: 2rem;
+    grid-gap: 0rem 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
-.agenda-product-1{
-    background-color: var(--primary-background-color);
+.agenda-product-1, .agenda-product-2, .agenda-product-3, .agenda-product-4{
     color: var(--primary-text-color);
     border-radius: 1.5rem;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.678)),
-    url(./assets/fiets\ met\ plant.webp);
-    background-position: center;
-    background-size: cover;
 
     & p{
         margin-top: 0;
@@ -238,6 +234,34 @@ p{
         font-size: 1.4rem;
         color: var(--primary-text-color);
     }
+}
+
+.agenda-product-1{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.678)),
+    url(./assets/ZADEN.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.agenda-product-2{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.678)),
+    url(./assets/fiets\ met\ plant.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.agenda-product-3{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.678)),
+    url(./assets/Aardbei.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.agenda-product-4{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.678)),
+    url(./assets/schuur.webp);
+    background-position: center;
+    background-size: cover;
 }
 
 .agenda-product-details{
@@ -318,3 +342,8 @@ ul{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
 } */
+
+
+.agenda-intro-tekst{
+    margin-bottom: 5rem;
+}
